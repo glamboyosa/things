@@ -135,7 +135,12 @@ const projects = ref([
 
     <!-- Footer -->
     <footer class="max-w-4xl mx-auto border-t-4 border-[#414868] pt-8 flex justify-between items-center text-[#565f89] text-sm uppercase">
-      <p>© 2026 GLAMBOYOSA.CORP</p>
+      <p>
+        © 2026 
+        <a href="https://glamboyosa.xyz" class="hover:text-[#7aa2f7] hover:underline decoration-2 underline-offset-4 font-bold">
+          GLAMBOYOSA
+        </a>
+      </p>
       <div class="flex gap-4 font-bold">
         <a href="https://github.com/glamboyosa" class="hover:text-[#7aa2f7] hover:underline decoration-2 underline-offset-4">[GitHub]</a>
         <a href="https://twitter.com/glamboyosa" class="hover:text-[#7aa2f7] hover:underline decoration-2 underline-offset-4">[Twitter]</a>
