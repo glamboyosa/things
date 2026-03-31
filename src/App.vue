@@ -12,6 +12,16 @@ const projects = ref([
     borderColor: 'border-pink-500'
   },
   {
+    name: 'Shopify Policy',
+    description:
+      'Paste a Shopify store URL: it finds shipping and returns content, streams analysis progress so nothing feels stuck, and turns it into an onboarding-style summary. Surfaces regional differences when terms vary, with Q&A grounded in what was actually read from the store.',
+    link: 'https://shopify.glamboyosa.xyz',
+    tags: ['Next.js', 'Shopify', 'SSE', 'AI'],
+    status: 'Live',
+    color: 'text-sky-500',
+    borderColor: 'border-sky-500'
+  },
+  {
     name: 'Swig',
     description: 'PostgreSQL-backed job queue system for Golang. Features transactional integrity, leader election, and batch processing.',
     link: 'https://swig.glamboyosa.xyz',
