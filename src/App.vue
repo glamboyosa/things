@@ -358,11 +358,6 @@ const projects: Project[] = [
   transition-timing-function: var(--ease-out);
 }
 
-.footer-links {
-  display: flex;
-  gap: 0.75rem;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .row,
   .name,
