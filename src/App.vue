@@ -9,6 +9,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    name: 'Conclave',
+    description:
+      'AI decision memos you can challenge in chat and revise without losing the original. Bring your own provider key or try the free NVIDIA model.',
+    link: 'https://conclave.click',
+    stack: 'React · TypeScript · AI SDK',
+    status: 'Live',
+  },
+  {
     name: 'Pulse',
     description:
       'Voice feedback via QR codes, with transcription and sentiment baked in.',
