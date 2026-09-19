@@ -9,6 +9,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    name: 'Docket',
+    description:
+      'A terminal app that reads, classifies, and files documents with Jev. PDFs and images use your OpenAI or OpenRouter key.',
+    link: 'https://docket.glamboyosa.xyz',
+    stack: 'Go · Bubble Tea · Jev',
+    status: 'Alpha',
+  },
+  {
     name: 'Conclave',
     description:
       'AI decision memos you can challenge in chat and revise without losing the original. Bring your own provider key or try the free NVIDIA model.',
