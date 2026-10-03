@@ -19,7 +19,7 @@ const projects: Project[] = [
   {
     name: 'Conclave',
     description:
-      'AI decision memos you can challenge in chat and revise without losing the original. Bring your own provider key or try the free NVIDIA model.',
+      'Compare independent AI perspectives, then challenge the decision memo in chat. Switch models or providers between replies without losing the conversation.',
     link: 'https://conclave.click',
     stack: 'React · TypeScript · AI SDK',
     status: 'Live',
