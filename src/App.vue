@@ -9,6 +9,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    name: 'katalepsis',
+    description:
+      'Runs your Playwright tests, or plain-English agent checks, against a preview deployment and keeps the screenshot, video and trace behind each failure.',
+    link: 'https://katalepsis.glamboyosa.xyz',
+    stack: 'TypeScript · Effect · Playwright',
+    status: 'Alpha',
+  },
+  {
     name: 'Docket',
     description:
       'A terminal app that reads, classifies, and files documents with Jev. PDFs and images use your OpenAI or OpenRouter key.',
